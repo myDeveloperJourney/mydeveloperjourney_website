@@ -92,16 +92,7 @@ export default function Home() {
               className="w-full h-48 rounded mb-4 object-cover"
             />
             <h3 className="text-xl font-semibold mb-2">ListingView</h3>
-            <p className="text-center">A SAAS platform that provides Etsy shop owners with sales insights.</p>
-          </div>
-          <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
-            <img
-              src="/the-wright-fence-co.webp"
-              alt="The Wright Fence Co Screenshot"
-              className="w-full h-48 rounded mb-4 object-cover"
-            />
-            <h3 className="text-xl font-semibold mb-2">The Wright Fence Co</h3>
-            <p className="text-center">A website for a local fence builder.</p>
+            <p className="text-center">Listing View is a SaaS product providing Etsy sellers insights on successful listings. We helped the client with authentication, a full-site audit for compliance, and site rebranding.</p>
           </div>
           <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
@@ -110,7 +101,16 @@ export default function Home() {
               className="w-full h-48 rounded mb-4 object-cover"
             />
             <h3 className="text-xl font-semibold mb-2">Rogers Wildlife</h3>
-            <p className="text-center">A non-profit bird rescue organization.</p>
+            <p className="text-center">This is a website built for a non-profit bird rescue center. Built with Next.js and Vercel, it includes donation functionality, an interactive map, a photo gallery, and content related to the organization's mission.</p>
+          </div>
+          <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <img
+              src="/the-wright-fence-co.webp"
+              alt="The Wright Fence Co Screenshot"
+              className="w-full h-48 rounded mb-4 object-cover"
+            />
+            <h3 className="text-xl font-semibold mb-2">The Wright Fence Co</h3>
+            <p className="text-center">Built with Next.js and Netlify, this site includes a services lineup, carousel, embedded chat, interactive map, and several business-oriented features.</p>
           </div>
         </div>
         </section>
@@ -119,7 +119,7 @@ export default function Home() {
           <p>Past and current engagements, topics, and media placeholders.</p>
         </section>
         <section id="contact" className="min-h-screen px-6 py-20 max-w-4xl mx-auto text-gray-300 fade-in">
-          <h2 className="text-3xl font-bold text-purpleAccent mb-6">Contact</h2>
+          <h2 className="text-3xl font-bold text-purpleAccent mb-6 text-center">Contact</h2>
           <form
             action="https://formspree.io/f/your-form-id"
             method="POST"
