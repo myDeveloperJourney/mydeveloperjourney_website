@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 const lines = [
-  '> Veteran. Developer. Mentor.',
+  'Veteran. Developer. Mentor.',
 ];
 
 export default function Hero() {
@@ -60,7 +60,8 @@ export default function Hero() {
         />
       </div>
       <div className="relative z-10 max-w-3xl w-full text-center whitespace-pre-line text-lg leading-relaxed">
-        <pre className="bg-black typing whitespace-pre-line break-words text-center px-2 sm:px-0">{displayedText}<span className="caret"></span></pre>
+        <h1 className="text-shadow-glow text-black font-bold">Hi, I'm Daniel Scott</h1>
+        <pre className="text-shadow-glow text-black font-bold typing whitespace-pre-line break-words text-center px-2 sm:px-0">{displayedText}<span className="caret"></span></pre>
       </div>
     </section>
   );
