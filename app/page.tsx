@@ -92,7 +92,11 @@ export default function Home() {
               alt="ListingView Screenshot"
               className="w-full h-90 rounded mb-4 object-contain"
             />
-            <h3 className="text-xl font-semibold mb-2">ListingView</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              <a href="https://listingview.io/" target="_blank" rel="noopener noreferrer" className="text-purpleAccent hover:underline">
+              ListingView
+              </a>
+            </h3>
             <p className="text-center">Listing View is a SaaS product providing Etsy sellers insights on successful listings. We helped the client with authentication, a full-site audit for compliance, and site rebranding.</p>
           </div>
           <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
@@ -101,7 +105,11 @@ export default function Home() {
               alt="Rogers Wildlife Screenshot"
               className="w-full h-90 rounded mb-4 object-contain"
             />
-            <h3 className="text-xl font-semibold mb-2">Rogers Wildlife</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              <a href="https://www.rogerswildlife.org/" target="_blank" rel="noopener noreferrer" className="text-purpleAccent hover:underline">
+                Rogers Wildlife
+              </a>
+            </h3>
             <p className="text-center">This is a website built for a non-profit bird rescue center. Built with Next.js and Vercel, it includes donation functionality, an interactive map, a photo gallery, and content related to the organization's mission.</p>
           </div>
           <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
@@ -110,7 +118,11 @@ export default function Home() {
               alt="The Wright Fence Co Screenshot"
               className="w-full h-90 rounded mb-4 object-contain"
             />
-            <h3 className="text-xl font-semibold mb-2">Wright Fence Co</h3>
+            <h3 className="text-xl font-semibold mb-2">
+            <a href="https://thewrightfenceco.com/" target="_blank" rel="noopener noreferrer" className="text-purpleAccent hover:underline">
+              Wright Fence Co
+            </a>
+            </h3>
             <p className="text-center">Built with Next.js and Netlify, this site includes a services lineup, carousel, embedded chat, interactive map, and several business-oriented features.</p>
           </div>
         </div>
