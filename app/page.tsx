@@ -1,5 +1,7 @@
+"use client";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Form from './components/Form';
 
 export default function Home() {
   return (
@@ -119,20 +121,7 @@ export default function Home() {
         </section> */}
         <section id="contact" className="min-h-screen px-6 py-20 max-w-4xl mx-auto text-gray-300 fade-in">
           <h2 className="text-3xl font-bold text-purpleAccent mb-6 text-center">Contact</h2>
-          <form
-            action="https://formspree.io/f/your-form-id"
-            method="POST"
-            className="max-w-md mx-auto space-y-6"
-          >
-            <input type="text" name="name" placeholder="Name" required className="w-full px-4 py-2 rounded bg-darkbgAlt border border-purpleAccent text-white focus:outline-none focus:ring-2 focus:ring-purpleAccent" />
-            <input type="email" name="email" placeholder="Email" required className="w-full px-4 py-2 rounded bg-darkbgAlt border border-purpleAccent text-white focus:outline-none focus:ring-2 focus:ring-purpleAccent" />
-            <textarea name="message" placeholder="Message" required rows={5} className="w-full px-4 py-2 rounded bg-darkbgAlt border border-purpleAccent text-white focus:outline-none focus:ring-2 focus:ring-purpleAccent" />
-            {/* Honeypot field */}
-            <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
-            <button type="submit" className="w-full bg-purpleAccent text-black font-bold py-3 rounded hover:bg-purpleAccent/90 transition">
-              Send Message
-            </button>
-          </form>
+          <Form />
           <div className="mt-8 flex justify-center space-x-6 text-purpleAccent text-2xl">
             <a href="https://github.com/myDeveloperJourney" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <svg fill="currentColor" viewBox="0 0 24 24" className="w-8 h-8" aria-hidden="true">
