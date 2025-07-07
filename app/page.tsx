@@ -84,7 +84,7 @@ export default function Home() {
         </section>
         <section id="projects" className="scroll-mt-20 min-h-screen px-6 py-5 max-w-4xl mx-auto text-gray-300 fade-in">
           <h2 className="text-3xl font-bold text-purpleAccent mb-6">Projects</h2>
-          <p className="mb-8 mt-1">Here's a few of my recent projects:</p>
+          <p className="mb-8 mt-1">Here's a few of his recent projects:</p>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
             <div className="bg-darkbgAlt p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
@@ -147,7 +147,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-6 text-center text-gray-500 text-sm italic">
-            Let’s get in touch. Whether you're learning to code, building something bold, or just looking for guidance—I’d love to hear from you.
+            Let’s get in touch. Whether you're learning to code, building something bold, or just looking for guidance—we’d love to hear from you.
           </p>
         </section>
       </main>
